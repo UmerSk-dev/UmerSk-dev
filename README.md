@@ -1,102 +1,121 @@
- <div align="center">
+<!-- ═══════════════════ GOLDEN NEXUS ═══════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:090014,35:30105E,70:7028D9,100:B58AFF&text=UMER%20SHAIKH&fontColor=FFFFFF&fontSize=56&fontAlignY=38&desc=PLAYER%20ONE%20%7C%20JAVA%20%7C%20WEB%20DEV&descAlignY=58&animation=fadeIn" />
+<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=900&color=C69AFF&center=true&vCenter=true&width=650&lines=INITIALIZING+PLAYER+PROFILE...;JAVA+BACKEND+ENGINEER+IN+PROGRESS;BUILDING+SYSTEMS%2C+NOT+JUST+PROJECTS;LEVELING+UP+EVERY+SINGLE+DAY" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:080808,35:241900,70:80621B,100:E8C96A&text=UMER%20SHAIKH&fontSize=58&fontColor=FFF0B0&fontAlignY=40&desc=ENGINEERING%20THE%20EXTRAORDINARY&descAlignY=60&descSize=14&animation=fadeIn&stroke=C8A84E&strokeWidth=1" />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=900&color=E5C76B&center=true&vCenter=true&width=700&lines=JAVA+%2F+DSA+%2F+FULL+STACK+DEVELOPMENT;BUILDING+SYSTEMS%2C+NOT+JUST+PROJECTS;EVERY+COMMIT+IS+A+STEP+FORWARD;WELCOME+TO+MY+DIGITAL+KINGDOM" />
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GITHUB-UMERSK--DEV-181124?style=for-the-badge&logo=github&logoColor=C69AFF)](https://github.com/UmerSk-dev)
-[![Java](https://img.shields.io/badge/JAVA-PLAYER-30105E?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/UmerSk-dev?tab=repositories)
+[![GitHub](https://img.shields.io/badge/GITHUB-080808?style=for-the-badge&logo=github&logoColor=E5C76B)](https://github.com/UmerSk-dev)
+[![Java](https://img.shields.io/badge/JAVA-080808?style=for-the-badge&logo=openjdk&logoColor=E5C76B)](https://github.com/UmerSk-dev)
+[![Learning](https://img.shields.io/badge/ALWAYS_LEARNING-080808?style=for-the-badge&logo=rocket&logoColor=E5C76B)](https://github.com/UmerSk-dev)
 
 </div>
 
 ---
 
-## ◈ PLAYER OVERVIEW
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=E5C76B" />
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## `01` — THE DEVELOPER
 
-### ⚡ CLASS: DEVELOPER
+<img align="right" width="36%" src="https://github-readme-stats.vercel.app/api?username=UmerSk-dev&show_icons=true&hide_border=true&bg_color=080808&title_color=E5C76B&icon_color=C9A227&text_color=F5E7B2&ring_color=E5C76B&include_all_commits=true" />
 
-```text
-╭──────────────────────────╮
-│  PLAYER    : UMER        │
-│  SPECIALTY : JAVA        │
-│  QUEST     : BACKEND     │
-│  WORLD     : OPEN SOURCE │
-│  STATUS    : GRINDING    │
-╰──────────────────────────╯
-```
+> *"The goal isn't to write more code. It's to build things worth remembering."*
 
-</td>
-<td width="50%" valign="top">
+I'm an Information Technology engineering student focused on building a strong foundation in software engineering.
 
-### 🎯 ACTIVE QUESTS
+- ⚔️ **Current weapon:** Java
+- 🧠 **Training ground:** Data Structures & Algorithms
+- ⚙️ **Next frontier:** Spring Boot & backend engineering
+- 🌐 **Exploring:** JavaScript, React & full-stack development
+- 🚀 **Mission:** Open source, meaningful projects, and engineering excellence
 
-- [x] Java fundamentals
-- [x] JavaScript fundamentals
-- [ ] Master Data Structures
-- [ ] Conquer Spring Boot
-- [ ] Ship production projects
-- [ ] Enter open source
-
-</td>
-</tr>
-</table>
+<br clear="right"/>
 
 ---
 
-## ◈ THE TECH ARMORY
+## `02` — THE GOLDEN ARSENAL
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,js,html,css,react,nodejs,git,github,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=java,js,html,css,react,git,github,vscode&theme=dark&perline=8" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/CORE%20FOCUS-DSA%20%7C%20JAVA%20%7C%20WEB-17130A?style=for-the-badge&labelColor=17130A&color=80621B" />
 
 </div>
 
 ---
 
-## ◈ CONTRIBUTION XP // THE GRIND NEVER STOPS
+## `03` — THE CONTRIBUTION CHRONICLES
 
 <div align="center">
 
-<img width="100%" src="https://ghchart.rshah.org/9B5DE5/UmerSk-dev" />
+<img width="100%" src="https://raw.githubusercontent.com/UmerSk-dev/UmerSk-dev/output/github-contribution-grid-snake-dark.svg" alt="Animated golden contribution snake" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=UmerSk-dev&show_icons=true&hide_border=true&bg_color=090014&title_color=C69AFF&icon_color=9B5DE5&text_color=E9DDFB" />
+<br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=UmerSk-dev&theme=midnight-purple&hide_border=true&background=090014&ring=C69AFF&fire=9B5DE5&currStreakLabel=C69AFF" />
+*Every square is a battle. Every commit moves the mission forward.*
 
 </div>
 
 ---
 
-## ◈ BOSS FIGHTS // LATEST PROJECTS
+## `04` — THE GITHUB OBSERVATORY
 
 <div align="center">
 
-<a href="https://github.com/UmerSk-dev?tab=repositories">
-<img src="https://img.shields.io/badge/01-SAFE%20SCAN-30105E?style=for-the-badge&logo=android&logoColor=C69AFF" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=UmerSk-dev&show_icons=true&hide_border=true&bg_color=080808&title_color=E5C76B&icon_color=C9A227&text_color=F5E7B2" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmerSk-dev&layout=compact&hide_border=true&bg_color=080808&title_color=E5C76B&text_color=F5E7B2" />
+
+<br/><br/>
+
+<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=UmerSk-dev&hide_border=true&background=080808&ring=E5C76B&fire=FFD700&currStreakLabel=E5C76B&sideLabels=E5C76B&currStreakNum=FFFFFF&sideNums=F5E7B2&dates=8C805E" />
+
+</div>
+
+---
+
+## `05` — ARTIFACTS IN PROGRESS
+
+<div align="center">
+
+<a href="https://github.com/UmerSk-dev/SafeScan">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=UmerSk-dev&repo=SafeScan&hide_border=true&bg_color=080808&title_color=E5C76B&icon_color=C9A227&text_color=F5E7B2" />
 </a>
 
-<a href="https://github.com/UmerSk-dev?tab=repositories">
-<img src="https://img.shields.io/badge/02-WEB%20EXPERIMENTS-30105E?style=for-the-badge&logo=javascript&logoColor=C69AFF" />
-</a>
-
-<a href="https://github.com/UmerSk-dev?tab=repositories">
-<img src="https://img.shields.io/badge/03-DSA%20ARENA-30105E?style=for-the-badge&logo=leetcode&logoColor=C69AFF" />
+<a href="https://github.com/UmerSk-dev">
+<img src="https://img.shields.io/badge/EXPLORE-ALL%20REPOSITORIES-17130A?style=for-the-badge&logo=github&logoColor=E5C76B" />
 </a>
 
 </div>
 
 ---
 
+## `06` — THE ROAD AHEAD
+
 <div align="center">
 
-### `THE NEXT COMMIT IS THE NEXT LEVEL.`
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2200&pause=700&color=E5C76B&center=true&vCenter=true&width=600&lines=MASTERING+DATA+STRUCTURES;CRAFTING+JAVA+BACKENDS;CONTRIBUTING+TO+OPEN+SOURCE;TURNING+IDEAS+INTO+REALITY" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090014,50:30105E,100:9B5DE5&height=120&section=footer" />
+<br/>
+
+**DISCIPLINE OVER MOTIVATION.  
+DEPTH OVER HYPE.  
+PROGRESS OVER PERFECTION.**
+
+<br/>
+
+<a href="https://github.com/UmerSk-dev?tab=repositories">
+<img src="https://img.shields.io/badge/ENTER%20THE%20KINGDOM-080808?style=for-the-badge&logo=github&logoColor=E5C76B&labelColor=080808&color=C9A227" />
+</a>
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080808,35:241900,70:80621B,100:E8C96A&height=120&section=footer" />
+
+<!-- ═══════════════════ END ═══════════════════ -->
