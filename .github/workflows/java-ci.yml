@@ -1,0 +1,46 @@
+
+name: Java CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Check Java version
+        run: java -version
+
+      - name: Compile Java files
+        shell: bash
+        run: |
+          find . -name "*.java" \
+            -not -path "./.git/*" \
+            -not -path "./target/*" \
+            -not -path "./build/*" \
+            > java-files.txt
+
+          if [ ! -s java-files.txt ]; then
+            echo "No Java files found."
+            exit 0
+          fi
+
+          mkdir -p out
+          javac -d out @java-files.txt
