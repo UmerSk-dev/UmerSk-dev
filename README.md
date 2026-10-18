@@ -1,5 +1,4 @@
-```md
-<div align="center">
+ <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:090014,35:30105E,70:7028D9,100:B58AFF&text=UMER%20SHAIKH&fontColor=FFFFFF&fontSize=56&fontAlignY=38&desc=PLAYER%20ONE%20%7C%20JAVA%20%7C%20WEB%20DEV&descAlignY=58&animation=fadeIn" />
 
@@ -7,8 +6,8 @@
 
 <br/>
 
-[ ![GitHub](https://img.shields.io/badge/GITHUB-UMERSK--DEV-181124?style=for-the-badge&logo=github&logoColor=C69AFF) ](https://github.com/UmerSk-dev)
-[ ![Java](https://img.shields.io/badge/JAVA-PLAYER-30105E?style=for-the-badge&logo=openjdk&logoColor=white) ](https://github.com/UmerSk-dev?tab=repositories)
+[![GitHub](https://img.shields.io/badge/GITHUB-UMERSK--DEV-181124?style=for-the-badge&logo=github&logoColor=C69AFF)](https://github.com/UmerSk-dev)
+[![Java](https://img.shields.io/badge/JAVA-PLAYER-30105E?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/UmerSk-dev?tab=repositories)
 
 </div>
 
@@ -101,4 +100,3 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:090014,50:30105E,100:9B5DE5&height=120&section=footer" />
 
 </div>
-```
