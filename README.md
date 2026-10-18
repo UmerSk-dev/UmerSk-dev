@@ -1,72 +1,94 @@
-<!-- PURPLE CYBER PROFILE -->
-
+```md
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6A00F4,50:9B5CFF,100:E0AAFF&height=200&section=header&text=UMER%20SHAIKH&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=CODE%20%7C%20CREATE%20%7C%20CONQUER&descAlignY=58&descSize=17"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:090014,35:30105E,70:7028D9,100:B58AFF&text=UMER%20SHAIKH&fontColor=FFFFFF&fontSize=56&fontAlignY=38&desc=PLAYER%20ONE%20%7C%20JAVA%20%7C%20WEB%20DEV&descAlignY=58&animation=fadeIn" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3000&pause=900&color=B388FF&center=true&vCenter=true&width=600&lines=Java+Developer+in+Progress;DSA+Grinder+%E2%9A%94%EF%B8%8F;Future+Spring+Boot+Engineer;Building+Projects+One+Commit+at+a+Time" alt="Typing introduction"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=900&color=C69AFF&center=true&vCenter=true&width=650&lines=INITIALIZING+PLAYER+PROFILE...;JAVA+BACKEND+ENGINEER+IN+PROGRESS;BUILDING+SYSTEMS%2C+NOT+JUST+PROJECTS;LEVELING+UP+EVERY+SINGLE+DAY" />
+
+<br/>
+
+[ ![GitHub](https://img.shields.io/badge/GITHUB-UMERSK--DEV-181124?style=for-the-badge&logo=github&logoColor=C69AFF) ](https://github.com/UmerSk-dev)
+[ ![Java](https://img.shields.io/badge/JAVA-PLAYER-30105E?style=for-the-badge&logo=openjdk&logoColor=white) ](https://github.com/UmerSk-dev?tab=repositories)
 
 </div>
 
 ---
 
-### 👾 PLAYER PROFILE
+## ◈ PLAYER OVERVIEW
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ CLASS: DEVELOPER
 
 ```text
-PLAYER       : Umer Shaikh
-CLASS        : IT Engineering Student
-MAIN WEAPON  : Java
-CURRENT MODE : DSA + Web Development
-NEXT BOSS    : Spring Boot & Backend Engineering
-GUILD        : Open Source
+╭──────────────────────────╮
+│  PLAYER    : UMER        │
+│  SPECIALTY : JAVA        │
+│  QUEST     : BACKEND     │
+│  WORLD     : OPEN SOURCE │
+│  STATUS    : GRINDING    │
+╰──────────────────────────╯
 ```
 
-### 🟣 TECH SKILL TREE
+</td>
+<td width="50%" valign="top">
+
+### 🎯 ACTIVE QUESTS
+
+- [x] Java fundamentals
+- [x] JavaScript fundamentals
+- [ ] Master Data Structures
+- [ ] Conquer Spring Boot
+- [ ] Ship production projects
+- [ ] Enter open source
+
+</td>
+</tr>
+</table>
+
+---
+
+## ◈ THE TECH ARMORY
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,html,css,javascript,react,git,github,vscode&theme=dark" alt="Technology skills"/>
+<img src="https://skillicons.dev/icons?i=java,js,html,css,react,nodejs,git,github,vscode&theme=dark" />
 
 </div>
 
-### ⚔️ ACTIVE QUESTS
+---
 
-| Quest | Mission |
-|---|---|
-| 🧠 DSA | Solve problems using Java |
-| 🛡️ SafeScan | Build an Android payment-safety app |
-| 🎮 Shadow Arena | Develop a browser-based game |
-| 🌐 Web Development | Learn React and build projects |
-| 🚀 Backend | Progress toward Java + Spring Boot |
-
-**Project portals**
-
-- [🛡️ SafeScan](https://github.com/UmerSk-dev/SafeScan)
-- [🎮 My repositories](https://github.com/UmerSk-dev?tab=repositories)
-
-### 📊 PLAYER STATISTICS
+## ◈ CONTRIBUTION XP // THE GRIND NEVER STOPS
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=UmerSk-dev&show_icons=true&hide_border=true&bg_color=120825&title_color=BB86FC&icon_color=E0AAFF&text_color=EDE7F6" alt="GitHub stats"/>
+<img width="100%" src="https://ghchart.rshah.org/9B5DE5/UmerSk-dev" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmerSk-dev&layout=compact&hide_border=true&bg_color=120825&title_color=BB86FC&text_color=EDE7F6" alt="Most used languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=UmerSk-dev&show_icons=true&hide_border=true&bg_color=090014&title_color=C69AFF&icon_color=9B5DE5&text_color=E9DDFB" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=UmerSk-dev&theme=midnight-purple&hide_border=true&background=090014&ring=C69AFF&fire=9B5DE5&currStreakLabel=C69AFF" />
 
 </div>
 
-### 🐍 CONTRIBUTION SNAKE
+---
+
+## ◈ BOSS FIGHTS // LATEST PROJECTS
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/UmerSk-dev/UmerSk-dev/output/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution snake" width="100%"/>
+<a href="https://github.com/UmerSk-dev?tab=repositories">
+<img src="https://img.shields.io/badge/01-SAFE%20SCAN-30105E?style=for-the-badge&logo=android&logoColor=C69AFF" />
+</a>
 
-</div>
+<a href="https://github.com/UmerSk-dev?tab=repositories">
+<img src="https://img.shields.io/badge/02-WEB%20EXPERIMENTS-30105E?style=for-the-badge&logo=javascript&logoColor=C69AFF" />
+</a>
 
-### 🌌 PLAYER CONNECT
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-UmerSk--dev-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/UmerSk-dev)
+<a href="https://github.com/UmerSk-dev?tab=repositories">
+<img src="https://img.shields.io/badge/03-DSA%20ARENA-30105E?style=for-the-badge&logo=leetcode&logoColor=C69AFF" />
+</a>
 
 </div>
 
@@ -74,8 +96,9 @@ GUILD        : Open Source
 
 <div align="center">
 
-*Every commit is another step toward the next level.*
+### `THE NEXT COMMIT IS THE NEXT LEVEL.`
 
-**`[ SAVE FILE: IN PROGRESS ]`**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090014,50:30105E,100:9B5DE5&height=120&section=footer" />
 
 </div>
+```
