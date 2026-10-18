@@ -1,189 +1,155 @@
 
 <div align="center">
 
-<!-- ═══════ ANIMATED COSMIC HERO ═══════ -->
+<!-- GAME START SCREEN -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=250&color=0:05010D,25:160B30,55:4C1D95,80:7C3AED,100:05010D&text=UMER%20SHAIKH&fontColor=FFFFFF&fontSize=58&fontAlignY=45&animation=twinkling&stroke=A78BFA&strokeWidth=1" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=160&color=0:080818,45:191932,100:252550&text=UMER.EXE&fontSize=65&fontColor=8BFFB0&fontAlignY=45&desc=PLAYER%20001%20%7C%20THE%20CODING%20ARCADE&descSize=14&descColor=FFFFFF&descAlignY=75" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2200&pause=700&color=C4B5FD&center=true&vCenter=true&width=750&lines=Initializing+Developer+Universe...;Java+%7C+Backend+%7C+Problem+Solving;Turning+Ideas+Into+Reality;One+Commit+Closer+To+The+Goal+%E2%9C%A8" alt="Animated developer introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=10&duration=2500&pause=900&color=8BFFB0&center=true&vCenter=true&width=600&height=55&lines=%3E+PLAYER+CONNECTED;%3E+LOADING+JAVA.EXE;%3E+ENTERING+THE+CODING+DUNGEON;%3E+NEW+QUEST+UNLOCKED" alt="Game startup animation"/>
 
 <br/>
 
-<img src="https://img.shields.io/badge/CLASS-Developer-160B30?style=for-the-badge&labelColor=090510&color=7C3AED" />
-<img src="https://img.shields.io/badge/MAIN_WEAPON-Java-A78BFA?style=for-the-badge&labelColor=090510" />
-<img src="https://img.shields.io/badge/MISSION-Build_The_Future-7C3AED?style=for-the-badge&labelColor=090510" />
-
-<br/><br/>
-
-<a href="https://github.com/UmerSk-dev?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE-MY%20PROJECTS-C4B5FD?style=for-the-badge&logo=github&logoColor=white&labelColor=190B32" />
-</a>
+<img src="https://img.shields.io/badge/PLAYER-UMER-101020?style=for-the-badge&labelColor=101020&color=8BFFB0"/>
+<img src="https://img.shields.io/badge/CLASS-CODE%20WARRIOR-101020?style=for-the-badge&labelColor=101020&color=65A9FF"/>
+<img src="https://img.shields.io/badge/WEAPON-JAVA-101020?style=for-the-badge&labelColor=101020&color=FFB86C"/>
 
 </div>
 
 ---
 
-## 🌌 THE DEVELOPER UNIVERSE
+## `> PLAYER PROFILE`
 
 <table>
 <tr>
-<td width="58%" valign="top">
+<td width="55%" valign="top">
 
-### 👨‍🚀 Pilot: Umer Shaikh
-
-```java
-class Developer {
-
-    String name = "Umer Shaikh";
-    String role = "IT Engineering Student";
-    String primaryLanguage = "Java";
-
-    String currentMission =
-        "Master Backend Engineering";
-
-    String[] objectives = {
-        "Solve DSA problems",
-        "Build real-world projects",
-        "Learn Spring Boot",
-        "Contribute to open source"
-    };
-
-    String motto =
-        "Dream. Design. Develop.";
-}
+```text
+╔══════════════════════════╗
+║      PLAYER STATUS       ║
+╠══════════════════════════╣
+║ NAME  : Umer Shaikh      ║
+║ CLASS : Code Warrior     ║
+║ WORLD : VIT Pune         ║
+║ MAIN  : Java             ║
+║ MODE  : Learning         ║
+║ GUILD : UmerSk-dev       ║
+╚══════════════════════════╝
 ```
 
-🎓 IT Engineering student at VIT Pune.
+**Player backstory**
 
-☕ Learning Java, DSA, and backend development.
+IT engineering student. Java is my main weapon, DSA is my training arena, and backend engineering is the final destination.
 
-⚙️ Working towards Spring Boot and database skills.
-
-🔐 Building SafeScan.
-
-🎮 Creating Shadow Arena.
-
-🌍 Preparing for open-source contributions.
+Currently learning, building projects, and preparing to enter the open-source world.
 
 </td>
-<td width="42%" align="center" valign="middle">
+<td width="45%" align="center" valign="middle">
 
-<!-- Floating visual stack -->
-
-<img src="https://skillicons.dev/icons?i=java,js,react,spring&theme=dark" />
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=postgres,git,github,androidstudio&theme=dark" />
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:4C1D95,50:C4B5FD,100:4C1D95" width="90%" />
+<img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="230" alt="Pixel-art style coding animation"/>
 
 <br/>
 
-**SYSTEM STATUS: ONLINE**
+`PLAYER 001 HAS ENTERED THE GAME`
 
-<sub>Learning • Building • Evolving</sub>
+<br/>
+
+<a href="https://github.com/UmerSk-dev">
+<img src="https://img.shields.io/badge/OPEN%20INVENTORY-MY%20REPOSITORIES-101020?style=for-the-badge&logo=github&logoColor=8BFFB0"/>
+</a>
 
 </td>
 </tr>
 </table>
 
-## ✨ THE TECH CONSTELLATION
+## `> SKILL TREE`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,js,html,css,react,nodejs,spring,postgres,git,github,vscode,androidstudio&theme=dark&perline=6" alt="Technology constellation"/>
+| Skill | Role | Progress |
+|---|---|---|
+| ☕ Java | Main weapon | `TRAINING` |
+| 🧠 DSA | Combat skills | `GRINDING` |
+| ⚙️ Spring Boot | Next unlock | `IN PROGRESS` |
+| 🌐 JavaScript | Secondary skill | `LEARNING` |
+| 🗄️ SQL | Database crafting | `LEARNING` |
+| 🌍 Open Source | Multiplayer mode | `NEXT QUEST` |
 
 <br/>
 
-<sub>Every technology is another star in the universe I'm building.</sub>
+<img src="https://skillicons.dev/icons?i=java,js,html,css,react,spring,postgres,git,github&theme=dark&perline=5" alt="Developer skill icons"/>
 
 </div>
 
 ---
 
-## 🪐 PROJECT PLANETS
+## `> WORLD MAP — SELECT YOUR QUEST`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<div align="center">
+### 🏰 WORLD 01: SAFESCAN
 
-<img src="https://img.shields.io/badge/PLANET_01-PAYMENT_SAFETY-7C3AED?style=for-the-badge&labelColor=090510" />
+<img src="https://img.shields.io/badge/QUEST-SECURITY-FF6B6B?style=flat-square"/>
 
-### 🔐 SafeScan
-
-</div>
-
-An Android payment-safety application concept exploring QR scanning and payment information checks.
+Build an Android payment-safety application concept.
 
 - QR scanning
-- Payment information inspection
+- Payment information checks
 - Safety-focused interface
 
-`JAVA` `ANDROID` `XML`
+**Loot:** `Java` `Android` `XML`
+
+<a href="https://github.com/UmerSk-dev?tab=repositories">▶ Find the project</a>
 
 </td>
 <td width="50%" valign="top">
 
-<div align="center">
+### ⚔️ WORLD 02: SHADOW ARENA
 
-<img src="https://img.shields.io/badge/PLANET_02-GAME_UNIVERSE-A78BFA?style=for-the-badge&labelColor=090510" />
+<img src="https://img.shields.io/badge/QUEST-GAME%20DEV-B388FF?style=flat-square"/>
 
-### 🎮 Shadow Arena
+Create a browser-based game with interactive characters.
 
-</div>
+- Character movement
+- Combat and game logic
+- Dark cinematic design
 
-A browser game project exploring interactive characters and movement.
+**Loot:** `HTML` `CSS` `JavaScript`
 
-- Character controls
-- Gameplay logic
-- Dark cinematic visuals
-
-`HTML` `CSS` `JAVASCRIPT`
+<a href="https://github.com/UmerSk-dev?tab=repositories">▶ Find the project</a>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<div align="center">
+### 🧩 WORLD 03: DSA DUNGEON
 
-<img src="https://img.shields.io/badge/PLANET_03-ALGORITHM_LAB-8B5CF6?style=for-the-badge&labelColor=090510" />
+<img src="https://img.shields.io/badge/QUEST-ALGORITHMS-8BFFB0?style=flat-square"/>
 
-### ☕ Java DSA
-
-</div>
-
-My ongoing journey through algorithmic problem-solving.
+Solve algorithmic challenges and improve efficiency.
 
 - Arrays and strings
 - Searching and sorting
-- Complexity analysis
+- Complexity optimization
 
-`JAVA` `LEETCODE`
+**Loot:** `Java` `LeetCode`
 
 </td>
 <td width="50%" valign="top">
 
-<div align="center">
+### 🔮 WORLD 04: BACKEND KINGDOM
 
-<img src="https://img.shields.io/badge/PLANET_04-WEB_SYSTEMS-C4B5FD?style=for-the-badge&labelColor=090510" />
+<img src="https://img.shields.io/badge/QUEST-UNDER%20CONSTRUCTION-FFB86C?style=flat-square"/>
 
-### 🌐 Web Development
+Prepare to build robust server-side applications.
 
-</div>
+- Spring Boot
+- REST APIs
+- Databases and persistence
 
-Building the foundations for full-stack development.
-
-- JavaScript fundamentals
-- React
-- APIs and databases
-
-`JAVASCRIPT` `REACT` `SQL`
+**Loot:** `Java` `SQL` `Spring Boot`
 
 </td>
 </tr>
@@ -191,51 +157,74 @@ Building the foundations for full-stack development.
 
 ---
 
-## 🌠 THE COMMIT GALAXY
+## `> THE CONTRIBUTION REALM`
 
-Instead of a contribution snake, this section uses your GitHub activity graph as a **galaxy-like field of glowing nodes and trails**.
+**Every commit builds the world. Every streak powers it up.**
+
+Instead of a snake, this is your actual GitHub contribution history rendered as a **3D pixel landscape**. Higher contribution activity creates taller voxel columns, like terrain in a game.
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=UmerSk-dev&bg_color=05010D&color=C4B5FD&line=8B5CF6&point=FFFFFF&area=true&area_color=4C1D95&hide_border=true&custom_title=THE%20COMMIT%20GALAXY" alt="Contribution galaxy"/>
+<img width="100%" src="https://raw.githubusercontent.com/UmerSk-dev/UmerSk-dev/main/profile-3d-contrib/profile-night-rainbow.svg" alt="Three-dimensional contribution terrain"/>
 
-<br/><br/>
+</div>
 
-<img src="https://github-readme-stats.vercel.app/api?username=UmerSk-dev&show_icons=true&hide_border=true&bg_color=090510&title_color=C4B5FD&icon_color=8B5CF6&text_color=E5E7EB" height="175" alt="GitHub stats"/>
+<sub>Terrain image requires the 3D contribution workflow below. It will appear after the workflow generates and commits the SVG.</sub>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmerSk-dev&layout=compact&hide_border=true&bg_color=090510&title_color=C4B5FD&text_color=E5E7EB" height="175" alt="Top languages"/>
+### 🎮 Player statistics
 
-<br/><br/>
+<div align="center">
 
-<img src="https://streak-stats.demolab.com?user=UmerSk-dev&hide_border=true&background=090510&ring=A78BFA&fire=8B5CF6&currStreakLabel=C4B5FD&sideLabels=C4B5FD&dates=9CA3AF" alt="Contribution streak"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=UmerSk-dev&show_icons=true&hide_border=true&bg_color=101020&title_color=8BFFB0&icon_color=65A9FF&text_color=FFFFFF" alt="Player statistics"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmerSk-dev&layout=compact&hide_border=true&bg_color=101020&title_color=8BFFB0&text_color=FFFFFF" alt="Language inventory"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=UmerSk-dev&hide_border=true&background=101020&ring=8BFFB0&fire=FFB86C&currStreakLabel=8BFFB0&sideLabels=65A9FF&dates=AAAAAA" alt="Daily coding streak"/>
 
 </div>
 
 ---
 
-## 🚀 MISSION CONTROL
+## `> ACHIEVEMENT BOARD`
 
 <div align="center">
 
-| Mission | Current objective |
-|:---|:---|
-| ☕ Java | Strengthen core concepts and OOP |
-| 🧠 DSA | Solve problems and optimize solutions |
-| ⚙️ Backend | Learn Spring Boot and REST APIs |
-| 🗄️ Databases | Build SQL and PostgreSQL fundamentals |
-| 🌍 Open Source | Learn contribution workflows |
-| 🛠️ Projects | Ship practical software |
+| Achievement | Unlock condition |
+|---|---|
+| ☕ First Blood | Solve your first coding problem |
+| 🧠 Dungeon Crawler | Keep practicing DSA |
+| 🛠️ Item Crafter | Build a working project |
+| 🔥 Streak Keeper | Maintain a coding streak |
+| 🌍 Guild Member | Make your first open-source contribution |
+| 👑 Boss Slayer | Complete a challenging project |
 
 </div>
 
+*Achievements are personal goals, not automatically verified GitHub badges.*
+
+## `> FINAL BOSS`
+
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=900&color=A78BFA&center=true&vCenter=true&width=650&lines=System.out.println%28%22Keep+Building.%22%29%3B;while%28learning%29+%7B+build%28%29%3B+%7D;The+Next+Commit+Is+Another+Possibility." alt="Animated coding quotes"/>
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=10&duration=2500&pause=1000&color=FFB86C&center=true&vCenter=true&width=600&height=60&lines=BOSS%3A+THE+TECH+INTERVIEW;%3E+TRAINING+IN+PROGRESS...;%3E+NEW+SKILLS+UNLOCKING...;%3E+CONTINUE%3F+YES" alt="Final boss animation"/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=160&section=footer&color=0:05010D,35:3B176F,70:7C3AED,100:05010D&animation=twinkling" />
+<br/>
 
-**`DREAM IN 3D. BUILD IN CODE.`**
+<img src="https://img.shields.io/badge/QUEST-CONSISTENCY-101020?style=for-the-badge&labelColor=101020&color=8BFFB0"/>
+<img src="https://img.shields.io/badge/DIFFICULTY-HARD-101020?style=for-the-badge&labelColor=101020&color=FF6B6B"/>
 
-<sub>Thanks for exploring my universe. ⭐</sub>
+### `GG WP — BUT THE GAME ISN'T OVER.`
+
+<a href="https://github.com/UmerSk-dev?tab=repositories">
+<img src="https://img.shields.io/badge/▶_ENTER_MY_GITHUB-8BFFB0?style=for-the-badge&labelColor=101020&color=8BFFB0"/>
+</a>
+
+<br/><br/>
+
+<sub>UMER.EXE · A developer in progress · Built with curiosity and commits.</sub>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:252550,50:101020,100:080818&section=footer"/>
 
 </div>
