@@ -1,230 +1,224 @@
+<!-- ═══════════ PLAYER HEADER ═══════════ -->
 
 <div align="center">
 
-<!-- GAME START SCREEN -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=160&color=0:080818,45:191932,100:252550&text=UMER.EXE&fontSize=65&fontColor=8BFFB0&fontAlignY=45&desc=PLAYER%20001%20%7C%20THE%20CODING%20ARCADE&descSize=14&descColor=FFFFFF&descAlignY=75" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=10&duration=2500&pause=900&color=8BFFB0&center=true&vCenter=true&width=600&height=55&lines=%3E+PLAYER+CONNECTED;%3E+LOADING+JAVA.EXE;%3E+ENTERING+THE+CODING+DUNGEON;%3E+NEW+QUEST+UNLOCKED" alt="Game startup animation"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/PLAYER-UMER-101020?style=for-the-badge&labelColor=101020&color=8BFFB0"/>
-<img src="https://img.shields.io/badge/CLASS-CODE%20WARRIOR-101020?style=for-the-badge&labelColor=101020&color=65A9FF"/>
-<img src="https://img.shields.io/badge/WEAPON-JAVA-101020?style=for-the-badge&labelColor=101020&color=FFB86C"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=050816&height=170&section=header&text=UMER%20SHAIKH&fontSize=48&fontColor=00F5FF&animation=fadeIn&fontAlignY=38&desc=PLAYER%20001%20%7C%20THE%20CODE%20RUNNER&descAlignY=62&descSize=15"/>
 
 </div>
 
----
+<!-- ═══════════ GAME HUD ═══════════ -->
 
-## `> PLAYER PROFILE`
-
-<table>
-<tr>
-<td width="55%" valign="top">
+<div align="center">
 
 ```text
-╔══════════════════════════╗
-║      PLAYER STATUS       ║
-╠══════════════════════════╣
-║ NAME  : Umer Shaikh      ║
-║ CLASS : Code Warrior     ║
-║ WORLD : VIT Pune         ║
-║ MAIN  : Java             ║
-║ MODE  : Learning         ║
-║ GUILD : UmerSk-dev       ║
-╚══════════════════════════╝
+╔══════════════════════════════════════════════════════╗
+║  ▰ PLAYER STATUS                                     ║
+║                                                      ║
+║  PLAYER     UMER                                     ║
+║  CLASS      JAVA DEVELOPER IN TRAINING               ║
+║  WORLD      VIT PUNE // INFORMATION TECHNOLOGY       ║
+║  MISSION    BECOME A BACKEND ENGINEER                ║
+║                                                      ║
+║  CURRENT LEVEL                                        ║
+║  [████████░░░░░░░░░░░░]  LEARNING NEVER ENDS         ║
+╚══════════════════════════════════════════════════════╝
 ```
-
-**Player backstory**
-
-IT engineering student. Java is my main weapon, DSA is my training arena, and backend engineering is the final destination.
-
-Currently learning, building projects, and preparing to enter the open-source world.
-
-</td>
-<td width="45%" align="center" valign="middle">
-
-<img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="230" alt="Pixel-art style coding animation"/>
-
-<br/>
-
-`PLAYER 001 HAS ENTERED THE GAME`
-
-<br/>
-
-<a href="https://github.com/UmerSk-dev">
-<img src="https://img.shields.io/badge/OPEN%20INVENTORY-MY%20REPOSITORIES-101020?style=for-the-badge&logo=github&logoColor=8BFFB0"/>
-</a>
-
-</td>
-</tr>
-</table>
-
-## `> SKILL TREE`
-
-<div align="center">
-
-| Skill | Role | Progress |
-|---|---|---|
-| ☕ Java | Main weapon | `TRAINING` |
-| 🧠 DSA | Combat skills | `GRINDING` |
-| ⚙️ Spring Boot | Next unlock | `IN PROGRESS` |
-| 🌐 JavaScript | Secondary skill | `LEARNING` |
-| 🗄️ SQL | Database crafting | `LEARNING` |
-| 🌍 Open Source | Multiplayer mode | `NEXT QUEST` |
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=java,js,html,css,react,spring,postgres,git,github&theme=dark&perline=5" alt="Developer skill icons"/>
 
 </div>
 
----
+## `01` — THE CHARACTER
 
-## `> WORLD MAP — SELECT YOUR QUEST`
+<div align="center">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 720 320" role="img" aria-label="Pixel-art cyberpunk coder character in a neon game arena">
+  <defs>
+    <linearGradient id="arena" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07172c"/>
+      <stop offset="100%" stop-color="#170b2e"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#263c67"/>
+      <stop offset="100%" stop-color="#0a1028"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="720" height="320" rx="14" fill="url(#arena)"/>
+  <g stroke="#123b58" stroke-width="1" opacity=".8">
+    {#each Array.from({length:15},(_,i)=>i) as i}
+      <path d={`M ${i*60-120} 320 L 360 155 L ${i*60+840} 320`} fill="none"/>
+    {/each}
+    {#each Array.from({length:6},(_,i)=>i) as i}
+      <path d={`M 0 ${180+i*i*4} H 720`} fill="none"/>
+    {/each}
+  </g>
+  <circle cx="360" cy="143" r="94" fill="none" stroke="#00e5ff" stroke-width="2" opacity=".6" filter="url(#glow)"/>
+  <circle cx="360" cy="143" r="77" fill="none" stroke="#f02eec" stroke-width="1" stroke-dasharray="8 9"/>
+  <g filter="url(#glow)">
+    <rect x="327" y="69" width="66" height="66" rx="12" fill="#18243f" stroke="#00e5ff" stroke-width="3"/>
+    <path d="M339 97 L350 89 L361 97 L372 89 L382 97" fill="none" stroke="#00e5ff" stroke-width="4" stroke-linecap="round"/>
+    <rect x="341" y="107" width="38" height="6" rx="3" fill="#f02eec"/>
+    <path d="M311 143 L292 169 L305 230 L326 250 L394 250 L415 230 L428 169 L409 143 L390 131 L330 131 Z" fill="url(#coat)" stroke="#00e5ff" stroke-width="2"/>
+    <path d="M328 137 L360 174 L392 137 L383 216 L337 216 Z" fill="#11182c" stroke="#f02eec" stroke-width="2"/>
+    <path d="M343 181 L360 197 L377 181" fill="none" stroke="#00e5ff" stroke-width="3"/>
+    <path d="M311 155 L283 184 L291 218 L307 214 L309 190" fill="#19294a" stroke="#00e5ff" stroke-width="3"/>
+    <path d="M409 155 L437 184 L429 218 L413 214 L411 190" fill="#19294a" stroke="#00e5ff" stroke-width="3"/>
+    <rect x="322" y="244" width="30" height="40" fill="#10162d" stroke="#00e5ff" stroke-width="2"/>
+    <rect x="368" y="244" width="30" height="40" fill="#10162d" stroke="#00e5ff" stroke-width="2"/>
+    <path d="M317 282 H355 V294 H309 Z M365 282 H403 V294 H357 Z" fill="#050916" stroke="#f02eec" stroke-width="2"/>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M458 158 L497 136 L520 149 L481 172 Z" fill="#132844" stroke="#00e5ff" stroke-width="2"/>
+    <path d="M481 172 L520 149 L520 195 L481 218 Z" fill="#0b1730" stroke="#00e5ff" stroke-width="2"/>
+    <path d="M458 158 L481 172 L481 218 L458 203 Z" fill="#1b3153" stroke="#00e5ff" stroke-width="2"/>
+    <path d="M469 171 L494 157 M469 181 L494 167 M469 191 L494 177" stroke="#f02eec" stroke-width="2"/>
+  </g>
+  <g fill="#00e5ff" filter="url(#glow)">
+    <rect x="158" y="77" width="9" height="9"/><rect x="536" y="79" width="7" height="7"/>
+    <rect x="218" y="135" width="5" height="5"/><rect x="565" y="219" width="8" height="8"/>
+    <rect x="183" y="232" width="5" height="5"/><rect x="512" y="96" width="4" height="4"/>
+  </g>
+  <g fill="#f02eec" filter="url(#glow)">
+    <rect x="226" y="80" width="6" height="6"/><rect x="549" y="167" width="6" height="6"/>
+    <rect x="196" y="187" width="8" height="8"/><rect x="465" y="64" width="5" height="5"/>
+  </g>
+  <text x="24" y="34" fill="#00e5ff" font-family="monospace" font-size="13" letter-spacing="3">SECTOR 01 // PLAYER SPAWN</text>
+  <text x="24" y="298" fill="#8395b8" font-family="monospace" font-size="11">BUILD. DEBUG. REPEAT.</text>
+  <text x="696" y="298" text-anchor="end" fill="#f02eec" font-family="monospace" font-size="11">SYSTEM ONLINE</text>
+</svg>
+
+**PLAYER CLASS:** Developer  
+**SPECIAL ABILITY:** Turning bugs into lessons  
+**WEAPON:** Java  
+**PASSIVE SKILL:** Consistency
+
+</div>
+
+## `02` — SKILL TREE
+
+<div align="center">
+
+| Skill | Level |
+|:---|:---|
+| ☕ Java | `LEARNING` |
+| ⚔️ Data Structures & Algorithms | `GRINDING XP` |
+| 🌐 HTML · CSS · JavaScript | `UNLOCKED` |
+| ⚛️ React | `NEXT QUEST` |
+| 🛠️ Spring Boot | `BOSS QUEST` |
+| 🗄️ SQL & Databases | `UPCOMING` |
+| 🐙 Git & GitHub | `ACTIVE` |
+
+</div>
+
+## `03` — ACTIVE QUESTS
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🏰 WORLD 01: SAFESCAN
+### 🛡️ QUEST 001: SAFESCAN
 
-<img src="https://img.shields.io/badge/QUEST-SECURITY-FF6B6B?style=flat-square"/>
+**Type:** Android / Payment Safety
 
-Build an Android payment-safety application concept.
+Build a payment safety experience with QR scanning and risk-awareness features.
 
-- QR scanning
-- Payment information checks
-- Safety-focused interface
+`JAVA` `ANDROID` `XML`
 
-**Loot:** `Java` `Android` `XML`
-
-<a href="https://github.com/UmerSk-dev?tab=repositories">▶ Find the project</a>
+[ENTER PROJECT ↗](https://github.com/UmerSk-dev/SafeScan)
 
 </td>
 <td width="50%" valign="top">
 
-### ⚔️ WORLD 02: SHADOW ARENA
+### 🎮 QUEST 002: SHADOW ARENA
 
-<img src="https://img.shields.io/badge/QUEST-GAME%20DEV-B388FF?style=flat-square"/>
+**Type:** Browser Game
 
-Create a browser-based game with interactive characters.
+Create a dark game arena with character movement, combat, and interactive gameplay.
 
-- Character movement
-- Combat and game logic
-- Dark cinematic design
+`HTML` `CSS` `JAVASCRIPT`
 
-**Loot:** `HTML` `CSS` `JavaScript`
-
-<a href="https://github.com/UmerSk-dev?tab=repositories">▶ Find the project</a>
+[EXPLORE REPOSITORIES ↗](https://github.com/UmerSk-dev?tab=repositories)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🧩 WORLD 03: DSA DUNGEON
+### 🧠 QUEST 003: DSA GRIND
 
-<img src="https://img.shields.io/badge/QUEST-ALGORITHMS-8BFFB0?style=flat-square"/>
+Solve coding challenges, learn patterns, and improve problem-solving speed.
 
-Solve algorithmic challenges and improve efficiency.
+`JAVA` `LEETCODE`
 
-- Arrays and strings
-- Searching and sorting
-- Complexity optimization
-
-**Loot:** `Java` `LeetCode`
+[OPEN LEETCODE ↗](https://leetcode.com/)
 
 </td>
 <td width="50%" valign="top">
 
-### 🔮 WORLD 04: BACKEND KINGDOM
+### 🌍 QUEST 004: OPEN SOURCE
 
-<img src="https://img.shields.io/badge/QUEST-UNDER%20CONSTRUCTION-FFB86C?style=flat-square"/>
+Learn how real projects work, understand contributions, and start submitting meaningful pull requests.
 
-Prepare to build robust server-side applications.
+`GIT` `GITHUB` `COLLABORATION`
 
-- Spring Boot
-- REST APIs
-- Databases and persistence
-
-**Loot:** `Java` `SQL` `Spring Boot`
+**STATUS:** IN PROGRESS
 
 </td>
 </tr>
 </table>
 
+## `04` — CONTRIBUTION WORLD
+
+> Your GitHub activity is your game world. Every contribution lights up another tile.
+
+<div align="center">
+
+<img src="https://ghchart.rshah.org/00e5ff/UmerSk-dev" alt="GitHub contribution activity rendered as a neon game map" width="100%"/>
+
+</div>
+
+### XP SYSTEM
+
+- `+10 XP` — commit a meaningful change
+- `+25 XP` — solve a coding problem
+- `+50 XP` — finish a project milestone
+- `+100 XP` — merge an open-source contribution
+
+*These are personal game rules, not actual GitHub scores. Earn XP by keeping your own progress log.*
+
+## `05` — PLAYER RECORD
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=UmerSk-dev&show_icons=true&hide_border=true&bg_color=050816&title_color=00e5ff&text_color=c7d2fe&icon_color=f02eec&rank_icon=github" alt="GitHub activity stats"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmerSk-dev&layout=compact&hide_border=true&bg_color=050816&title_color=00e5ff&text_color=c7d2fe" alt="Most used languages"/>
+
+</div>
+
+## `06` — CONNECT TO PLAYER
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GITHUB-ENTER%20PROFILE-00e5ff?style=for-the-badge&logo=github&logoColor=050816)](https://github.com/UmerSk-dev)
+
+</div>
+
 ---
 
-## `> THE CONTRIBUTION REALM`
-
-**Every commit builds the world. Every streak powers it up.**
-
-Instead of a snake, this is your actual GitHub contribution history rendered as a **3D pixel landscape**. Higher contribution activity creates taller voxel columns, like terrain in a game.
-
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/UmerSk-dev/UmerSk-dev/main/profile-3d-contrib/profile-night-rainbow.svg" alt="Three-dimensional contribution terrain"/>
+```text
+╔══════════════════════════════════════════════╗
+║  ACHIEVEMENT LOCKED: MASTER DEVELOPER        ║
+║                                              ║
+║  Complete enough quests to unlock it.        ║
+║  No shortcuts. No fake stats. Keep building. ║
+╚══════════════════════════════════════════════╝
+```
 
-</div>
-
-<sub>Terrain image requires the 3D contribution workflow below. It will appear after the workflow generates and commits the SVG.</sub>
-
-### 🎮 Player statistics
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=UmerSk-dev&show_icons=true&hide_border=true&bg_color=101020&title_color=8BFFB0&icon_color=65A9FF&text_color=FFFFFF" alt="Player statistics"/>
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmerSk-dev&layout=compact&hide_border=true&bg_color=101020&title_color=8BFFB0&text_color=FFFFFF" alt="Language inventory"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=UmerSk-dev&hide_border=true&background=101020&ring=8BFFB0&fire=FFB86C&currStreakLabel=8BFFB0&sideLabels=65A9FF&dates=AAAAAA" alt="Daily coding streak"/>
-
-</div>
-
----
-
-## `> ACHIEVEMENT BOARD`
-
-<div align="center">
-
-| Achievement | Unlock condition |
-|---|---|
-| ☕ First Blood | Solve your first coding problem |
-| 🧠 Dungeon Crawler | Keep practicing DSA |
-| 🛠️ Item Crafter | Build a working project |
-| 🔥 Streak Keeper | Maintain a coding streak |
-| 🌍 Guild Member | Make your first open-source contribution |
-| 👑 Boss Slayer | Complete a challenging project |
-
-</div>
-
-*Achievements are personal goals, not automatically verified GitHub badges.*
-
-## `> FINAL BOSS`
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=10&duration=2500&pause=1000&color=FFB86C&center=true&vCenter=true&width=600&height=60&lines=BOSS%3A+THE+TECH+INTERVIEW;%3E+TRAINING+IN+PROGRESS...;%3E+NEW+SKILLS+UNLOCKING...;%3E+CONTINUE%3F+YES" alt="Final boss animation"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/QUEST-CONSISTENCY-101020?style=for-the-badge&labelColor=101020&color=8BFFB0"/>
-<img src="https://img.shields.io/badge/DIFFICULTY-HARD-101020?style=for-the-badge&labelColor=101020&color=FF6B6B"/>
-
-### `GG WP — BUT THE GAME ISN'T OVER.`
-
-<a href="https://github.com/UmerSk-dev?tab=repositories">
-<img src="https://img.shields.io/badge/▶_ENTER_MY_GITHUB-8BFFB0?style=for-the-badge&labelColor=101020&color=8BFFB0"/>
-</a>
-
-<br/><br/>
-
-<sub>UMER.EXE · A developer in progress · Built with curiosity and commits.</sub>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:252550,50:101020,100:080818&section=footer"/>
+**`[ PLAYER 001 — SAVE FILE IN PROGRESS ]`**
 
 </div>
