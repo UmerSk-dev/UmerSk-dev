@@ -1,0 +1,119 @@
+
+name: Golden Pulse Engine
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: golden-pulse
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create golden animation
+        shell: bash
+        run: |
+          mkdir -p dist
+
+          cat > dist/golden-pulse.svg <<'SVG'
+          <svg xmlns="http://www.w3.org/2000/svg"
+               width="1000" height="190" viewBox="0 0 1000 190">
+            <defs>
+              <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#050505"/>
+                <stop offset="50%" stop-color="#241900"/>
+                <stop offset="100%" stop-color="#080808"/>
+              </linearGradient>
+              <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#80621B"/>
+                <stop offset="50%" stop-color="#FFF0B0"/>
+                <stop offset="100%" stop-color="#C9A227"/>
+              </linearGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="3" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+
+            <rect width="1000" height="190" rx="14" fill="url(#background)"/>
+            <rect x="1" y="1" width="998" height="188" rx="13"
+                  fill="none" stroke="#C9A227" stroke-opacity=".65"/>
+
+            <g stroke="#C9A227" stroke-opacity=".15">
+              <path d="M0 40H1000 M0 80H1000 M0 120H1000 M0 160H1000"/>
+              <path d="M100 0V190 M200 0V190 M300 0V190 M400 0V190
+                       M500 0V190 M600 0V190 M700 0V190 M800 0V190 M900 0V190"/>
+            </g>
+
+            <g fill="#FFD76A" filter="url(#glow)">
+              <circle cx="90" cy="45" r="2.5">
+                <animate attributeName="opacity" values=".15;1;.15"
+                         dur="2s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="190" cy="145" r="3">
+                <animate attributeName="opacity" values="1;.2;1"
+                         dur="3s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="340" cy="35" r="2">
+                <animate attributeName="opacity" values=".2;1;.2"
+                         dur="2.4s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="740" cy="145" r="3">
+                <animate attributeName="opacity" values="1;.15;1"
+                         dur="1.8s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="900" cy="55" r="2.5">
+                <animate attributeName="opacity" values=".2;1;.2"
+                         dur="2.7s" repeatCount="indefinite"/>
+              </circle>
+            </g>
+
+            <path d="M0 105 Q250 25 500 105 T1000 105"
+                  fill="none" stroke="url(#gold)" stroke-width="2"
+                  opacity=".8" filter="url(#glow)">
+              <animate attributeName="d" dur="6s" repeatCount="indefinite"
+                values="M0 105 Q250 25 500 105 T1000 105;
+                        M0 105 Q250 175 500 105 T1000 105;
+                        M0 105 Q250 25 500 105 T1000 105"/>
+            </path>
+
+            <text x="500" y="88" text-anchor="middle"
+                  font-family="monospace" font-size="31"
+                  letter-spacing="7" fill="#FFF0B0" filter="url(#glow)">
+              GOLDEN NEXUS
+            </text>
+
+            <text x="500" y="119" text-anchor="middle"
+                  font-family="monospace" font-size="12"
+                  letter-spacing="4" fill="#C9A227">
+              BUILD  •  LEARN  •  REPEAT
+            </text>
+
+            <rect x="390" y="139" width="220" height="2" rx="1"
+                  fill="#C9A227">
+              <animate attributeName="width" values="35;220;35"
+                       dur="4s" repeatCount="indefinite"/>
+              <animate attributeName="x" values="482.5;390;482.5"
+                       dur="4s" repeatCount="indefinite"/>
+            </rect>
+          </svg>
+          SVG
+
+      - name: Publish golden animation
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
