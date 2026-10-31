@@ -96,18 +96,6 @@ I'm an IT engineering student building a strong foundation in software engineeri
 
 ## 05 — THE GITHUB OBSERVATORY
 
-<a href="https://github.com/UmerSk-dev"><img width="100%" src="https://github-readme-stats.vercel.app/api?username=UmerSk-dev&show_icons=true&hide_border=true&bg_color=080808&title_color=E5C76B&icon_color=C9A227&text_color=F5E7B2" alt="GitHub statistics"/></a>
-
-<br/>
-
-<a href="https://github.com/UmerSk-dev"><img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmerSk-dev&layout=compact&hide_border=true&bg_color=080808&title_color=E5C76B&text_color=F5E7B2" alt="Top programming languages"/></a>
-
-<br/><br/>
-
-<a href="https://github.com/UmerSk-dev"><img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=UmerSk-dev&hide_border=true&background=080808&ring=E5C76B&fire=FFD700&currStreakLabel=E5C76B&sideLabels=E5C76B&currStreakNum=FFFFFF&sideNums=F5E7B2&dates=8C805E" alt="GitHub contribution streak"/></a>
-
-<br/><br/>
-
 <a href="https://github.com/UmerSk-dev?tab=followers"><img src="https://img.shields.io/github/followers/UmerSk-dev?style=for-the-badge&logo=github&label=FOLLOWERS&color=C9A227&labelColor=080808" alt="GitHub followers"/></a>
 
 <a href="https://github.com/UmerSk-dev/stargazers"><img src="https://img.shields.io/github/stars/UmerSk-dev/UmerSk-dev?style=for-the-badge&logo=github&label=REPO%20STARS&color=C9A227&labelColor=080808" alt="Repository stars"/></a>
