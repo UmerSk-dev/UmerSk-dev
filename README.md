@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:050505,35:201700,70:755817,100:E8C96A&text=UMER%20SHAIKH&fontSize=40&fontColor=FFF0B0&fontAlignY=40&desc=ENGINEERING%20THE%20EXTRAORDINARY&descAlignY=62&descSize=11&animation=fadeIn" alt="Umer Shaikh banner"/>
